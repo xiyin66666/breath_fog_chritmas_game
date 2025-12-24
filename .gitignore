@@ -1,0 +1,197 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# pycharm
+.idea/
+
+# vscode
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Media and data files (keep only source files)
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# But we want to keep our assets directory structure
+# So we'll ignore the actual media files but keep the directory
+assets/*.mp3
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.wav
+
+# However, we should keep placeholder/example files
+!assets/README.md
+!assets/.gitkeep
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+*.swp
+*.swo
+*~
+
+# Project specific ignores
+# Camera calibration files
+*.xml
+*.yml
+
+# OpenCV cascade files (if any)
+*.xml
+
+# Machine learning models (if any)
+*.pkl
+*.model
+*.h5
+*.hdf5
+*.pth
+
+# Database files
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code settings (if not already ignored)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Windows
+[Dd]esktop.ini
+
+# Linux
+*~
+
+# Project files created by IDEs
+*.sublime-workspace
+*.sublime-project
+
+# Project lock files
+Pipfile.lock
+poetry.lock
+package-lock.json
+yarn.lock
+
+# Python virtual environment
+python3.9/
+python3.10/
+python3.11/
+
+# Output directory for any builds
+output/
+result/
+
+# Specific to your project:
+# Ignore test videos/images
+test_*.mp4
+test_*.jpg
+test_*.png
+
+# Ignore screen recordings
+recording_*.mp4
+screenshot_*.png
+
+# Ignore user-specific config files
+config.ini
+settings.ini
+user_settings.json
+
+# Ignore any downloaded models
+models/
+*.pb
+*.tflite
+*.onnx
