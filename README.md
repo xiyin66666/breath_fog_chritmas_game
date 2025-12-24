@@ -24,8 +24,8 @@ This is an interactive game based on OpenCV and camera. Players trigger fog effe
    ```bash
    pip install -r requirements.txt
    ```
-##🚀 How to Play
-#Start the game:
+## 🚀 How to Play
+# Start the game:
 
 ```bash
 python main.py
